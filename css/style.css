@@ -1,1 +1,13 @@
+.carousel{
+  margin-top: 50px;
+}
+@media only screen and (hover: none) and (pointer: coarse){
 
+  .carousel{
+    height: 200px!important;
+  }
+  .carousel-item{
+    min-height: 200px!important;
+  }
+
+}
