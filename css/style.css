@@ -1,3 +1,31 @@
+.visit-card{
+  padding-bottom:30px;
+}
+.visit-card .row{
+  padding-top: 20px;
+  margin: 0;
+}
+.visit-card h2{
+  margin: 0;
+}
+.visit-card{
+ background-image: url('../img/bg-blue-orange.jpg');
+  background-repeat: no-repeat;
+}
+
+#card-bg{
+  background: linear-gradient(0deg, rgba(26,35,126,1) 0%, rgba(142,123,170,1) 100%);
+}
+
+#icon-bg{
+  background: linear-gradient(0deg, rgba(171,71,188,1) 0%, rgba(185,108,198,1) 100%);
+}
+
+#icon-link{
+  border-radius: 50%;
+}
+
 #pp{
-  width: 50%;
+  width: 35%;
+  height
 }
