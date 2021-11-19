@@ -1,3 +1,10 @@
+body h2{
+  margin: 0;
+  padding-bottom: 10px;
+}
+body .row{
+  margin: 0;
+}
 nav h1{
   margin:0;
   margin-top: 10px;
@@ -47,10 +54,6 @@ nav h1{
   margin: 0;
 }
 
-.visit-card h2{
-  margin: 0;
-  padding-bottom: 10px;
-}
 .visit-card p{
   text-align:justify;
 }
@@ -80,11 +83,11 @@ nav h1{
  color: black;
 }
 
-.image-project h2{
-  margin: 0;
-  padding-bottom: 10px;
-}
-
 #time-icon{
   font-size: 40px;
+}
+
+footer {
+  margin:0;
+  padding-bottom: 20px;
 }
