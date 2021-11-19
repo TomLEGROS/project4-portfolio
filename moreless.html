@@ -5,19 +5,18 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="css/style.css">
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <title>Gaming Campus Relevant Projects</title>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
-    <body>
-
+    <body class="hangman">
 
             <nav>
               <div class="nav-wrapper indigo darken-4">
-                <a class="brand-logo center">+ / -</a>
+                <a class="brand-logo center">+ or -</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                   <li><a href="index.html">Home</a></li>
@@ -45,9 +44,6 @@
               <li><a class="black-text" href="#!"><i class="material-icons">arrow_upward</a></i></li>
             </ul>
 
-
-
-
       <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Home</a></li>
         <li><a href="connect.html">Connect 4</a></li>
@@ -55,6 +51,60 @@
         <li><a href="moreless.html">More or Less</a></li>
       </ul>
 
+      <div class="row">
+        <div class="middle-box col l8 m8 offset-l2 offset-m2 white z-depth-5">
+
+          <div class="row">
+            <div id="carousel" class="carousel carousel-slider col l8 m8 offset-l2 offset-m2" >
+              <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+              <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+              <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+              <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+            </div>
+          </div>
+
+          <div class="project-titles">
+            <div class="row">
+              <h2 class="col l8 m8 offset-l2 offset-m2"><i id="time-icon" class="material-icons ">face</i> People Involved : Tom, Hugo</h2>
+          <div class="row">
+            <div id="descritpion" class="black-text col l8 m8 s10 offset-l2 offset-m2 offset-s1">
+              <p>"This project was our first project at the Gaming Tech school. This project's goals was to introduce all the students to algorithms and Python language...
+                The more or less game is a single-player game where a random number is chosen between an interval, then your goal is to find that number with the computer saying
+                 if the random number is more or less higher than the number that you've written"</p>
+
+              <p>"We found this project pretty easy because we already practiced Python and algorithm and did personal projects but we think that it was good to strenghten our already existing bases."</p>
+            </div>
+          </div>
+
+          <div class="project-titles">
+            <div class="row">
+              <h2 class="col l8 m8 offset-l2 offset-m2"><i id="time-icon" class="material-icons ">access_time</i> Time restriction : 1 Week</h2>
+              <p class="col l8 m8 s10 offset-l2 offset-m2 offset-s1">The time limit was really acceptable in proportion to the work we had to do.</p>
+              <h2 class="col l8 m8 s10 offset-l2 offset-m2 offset-s1"><i id="time-icon" class="material-icons ">check</i> Objectives</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <ul class="collapsible col l8 m8 s10 offset-l2 offset-m2 offset-s1">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_downward</i><b>Randomised choice of a number betwwen an interval</b></div>
+                <div class="collapsible-body">
+                  <p>The first objective was to make the computer choose a random number between a fixed interval so the game could begin.</p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_downward</i><b>Make the computer say if it's more or less</b></div>
+                <div class="collapsible-body"><p>Next step was to make the computer to the comparaison between the number to find and your written number so it could help you by saying if you have to write a higher or lower number.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_downward</i><b>Make the win / loose condition</b></div>
+                <div class="collapsible-body"><p>To finish, we had to initiate a number of maximal attempts that will determine if the player lost in the case where he didn't found the number in a given amount of attempts, or if he won by finding the good number.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
 
 
